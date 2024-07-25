@@ -264,10 +264,34 @@
             justify-content: space-between;
             margin-top: 10px;
         }
+       .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0;
+        position: relative;
+    }
+
+    .logo {
+        min-width: 80px;
+        min-height: 80px;
+        border-radius: 50%;
+        background-image: url('https://github.com/anandvip/abpt-2/blob/main/abptlogo.png?raw=true');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-right: 20px;
+    }
+
+    .header-content {
+        text-align: center;
+    }
+
     </style>
 </head>
 <body>
     <div class="header">
+        <div class="logo"></div>
         <h1>Advanced Blood Pressure Tracker</h1>
         <button class="theme-toggle" id="themeToggle">🌓</button>
     </div>
